@@ -26,7 +26,7 @@ This game is an interactive “Island Survival” strategy game. Players must se
 ## Iteration Notes
 
 Post-Playtest:
-- This is a strategy game where results depend on player logic rather than pure luck through item selection. I redesigned the gameplay multiple times to achieve a user-friendly interface.  
+- This is a strategy game where results depend on player logic through item selection. I redesigned the gameplay multiple times to achieve a user-friendly interface.  
 - Early versions sorted items by value, making gameplay too simple. A shuffle algorithm now randomly adjusts grid positions upon each restart.  
 - The “Embark” button obscured the selected item list in the backpack area. I've increased the bottom bar height and lowered the button to ensure all text remains clearly readable.
   
