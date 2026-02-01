@@ -26,9 +26,9 @@ This game is an interactive “Island Survival” strategy game. Players must se
 ## Iteration Notes
 
 Post-Playtest:
-- Initially, the game was a simple random "coin flip" (Win/Lose). We changed this to a strategic "Survival" mode where players choose specific items, making the outcome based on player logic rather than pure luck.
-- Early versions listed items in order of value, making the game too easy. We added a shuffling algorithm to randomize the grid positions every time the game restarts, preventing players from simply memorizing the "best" spots.
-- Users reported that the "Embark" button was covering up the list of selected items in the backpack bar. We increased the height of the bottom bar (from 150px to 200px) and moved the button lower to ensure all text is legible.
+- This is a strategy game where results depend on player logic rather than pure luck through item selection. I redesigned the gameplay multiple times to achieve a user-friendly interface.  
+- Early versions sorted items by value, making gameplay too simple. A shuffle algorithm now randomly adjusts grid positions upon each restart.  
+- The “Embark” button obscured the selected item list in the backpack area. I've increased the bottom bar height and lowered the button to ensure all text remains clearly readable.
   
 Post-Showcase:
 - Currently, items are represented by text boxes. A future update can replace these with specific icons or illustrations for each item to improve visual immersion.
